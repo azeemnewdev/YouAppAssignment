@@ -1,0 +1,33 @@
+# Node modules - install fresh inside container
+node_modules
+**/node_modules
+
+# Build output (to avoid copying source dist into docker context)
+# dist
+# **/dist
+
+# Git files
+.git
+.gitignore
+
+# Environment files (optional: if you don't want to copy .env inside container)
+.env
+**/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker files (avoid copying unnecessary files)
+Dockerfile
+docker-compose.yml
+
+# IDE/editor config
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.tsbuildinfo
