@@ -6,7 +6,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { UserProfile, UserProfileSchema } from './entities/user-profile.entity';
 
 // THE DATABASE URL SHOULD BE IN A .ENV file
-const uri = "YOU MONGO DB URL GOES HERE";
+const uri = "mongodb+srv://goroseiluffynew:kq884MhiowHGqqbS@youapp0.fo86gbs.mongodb.net/?retryWrites=true&w=majority&appName=youapp0";
 
 @Module({
   imports: [
