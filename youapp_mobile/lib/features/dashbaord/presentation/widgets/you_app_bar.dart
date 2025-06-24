@@ -12,9 +12,6 @@ class YouAppBar extends StatelessWidget {
       itemBuilder: (BuildContext context) {
         return [
           PopupMenuItem(
-            child: Icon(Icons.settings, size: 25, color: Color(0xFF1F4247)),
-          ),
-          PopupMenuItem(
             onTap: () async {
               await SharedStorage.clear();
               Get.offNamed('/login');
