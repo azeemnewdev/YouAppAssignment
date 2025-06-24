@@ -3,7 +3,7 @@ import 'package:youapptest/data/zodiac_options.dart';
 class ZodiacHoroscopeUtility {
   static String getHoroscope(DateTime date) {
     var day = date.day;
-    var month = date.month + 1;
+    var month = date.month;
 
     if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) {
       return 'Aquarius';
