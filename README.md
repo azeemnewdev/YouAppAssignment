@@ -47,6 +47,8 @@ The DB has 2 collections
 
 When Deleting a user profile, the corresponding user is deleted as well.
 
+Rate limiter has been added to the api, 10 requests per min
+
 There are a few unit tests written in both application but not covering 100%.
 
 The Swagger end point for the api after running locally is http://localhost:3000/docs#/
